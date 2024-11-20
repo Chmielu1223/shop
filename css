@@ -101,3 +101,24 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+/* Dodanie globalnego tła */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('assets/images/home-background.jpg') no-repeat center center/cover;
+    color: #333;
+    background-attachment: fixed;
+}
+
+/* Sekcje z lekko przezroczystym tłem */
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Reszta stylów pozostaje bez zmian */
