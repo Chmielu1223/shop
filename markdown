@@ -9,3 +9,4 @@ To profesjonalny projekt sklepu internetowego z nowoczesnym designem.
 
 ## Jak uruchomić:
 1. Sklonuj repozytorium:
+2. Otwórz `index.html` w przeglądarce.
